@@ -1,0 +1,7 @@
+VM Configuration Notes:
+
+- VMware Workstation used to host Windows Server 2019
+- Virtual Disk: 60GB
+- RAM: 4GB
+- 2 CPUs allocated
+- Bridged networking enabled for domain communication
