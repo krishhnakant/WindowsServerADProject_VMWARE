@@ -1,0 +1,19 @@
+Windows Server Deployment & Active Directory Configuration - Documentation
+
+🔹 Project Overview:
+This self-initiated lab simulates a real-world environment using Windows Server 2019, VMware Workstation, and Active Directory.
+
+🔹 Tasks Performed:
+- Installed Windows Server 2019 in VMware
+- Configured DNS, IP, and promoted to domain controller
+- Created OUs (HR, IT, Sales), users, and groups
+- Applied Group Policies (GPOs) for password control, desktop restrictions, and login banner
+- Enabled remote administration and implemented login scripts via PowerShell
+
+🔹 Tools Used:
+- Windows Server 2019
+- VMware Workstation
+- Active Directory Users & Computers
+- Group Policy Management Console
+- PowerShell
+- Remote Desktop
