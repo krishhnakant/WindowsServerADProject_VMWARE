@@ -1,0 +1,8 @@
+# PowerShell Login Script Example
+# This script maps a network drive and connects a shared printer
+
+# Map network drive
+New-PSDrive -Name "S" -PSProvider FileSystem -Root "\\corp.local\Shared" -Persist
+
+# Connect network printer
+Start-Process -FilePath "rundll32.exe" -ArgumentList "printui.dll,PrintUIEntry /in /n \\corp.local\HP_LaserJet"
